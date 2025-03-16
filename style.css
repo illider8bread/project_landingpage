@@ -1,4 +1,25 @@
+/*
+dark baground color = #1F2937
+Hero Main Text "this website is awesome" = 48px #f9faf8 weight:900
+Hero Secondary/Header link text = 18px #e5e7eb
+Header Logo Text = 24px #f9faf8
+button color, call to action background = #3882f6
+information header = 36px #1f2937 weight:900
+quote section background = #e5e7eb
+quote text = 36px light italic #1f2937
+*/
+
 .body{
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-size: 22px;
+    height: 100vh;
+    width: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    
 }
