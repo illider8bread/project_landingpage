@@ -9,17 +9,41 @@ quote section background = #e5e7eb
 quote text = 36px light italic #1f2937
 */
 
-.body{
+body{
     font-family: "Roboto", sans-serif;
     font-size: 22px;
     height: 100vh;
-    width: 100vh;
     margin: 0;
     padding: 0;
+}
+
+.header{
+    background-color: #1F2937;
+    width: 100%;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 24px;
 }
 
 ul{
     text-decoration: none;
     list-style-type: none;
-    
+    display: flex;
+    gap: 24px;
+    flex: 4 0 auto;
+    margin-left: auto;
+    margin-right:24px;
+    justify-content: flex-end;
+}
+
+.hero{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+    padding: 0 24px;
+    flex: 1 1 auto;
 }
