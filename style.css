@@ -143,3 +143,47 @@ ul{
     font-size: 18px;
     margin: 20px;
 }
+
+.section4 {
+    margin: 200px 100px;
+}
+
+.section4 .box2{
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-radius: 10px;
+    padding: 20px 100px;
+    display: flex;
+}
+
+.box2 p {
+    display: block;
+    flex: 1;
+}
+
+.box2 strong {
+    display: block;
+    font-weight: 800;
+    margin: 8px 0px;
+    font-size: 24px;
+}
+
+.box2 button {
+    border-style: solid;
+    border-color: #f9faf8;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 15px 30px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    height: 100px;
+    align-content: center;
+}
